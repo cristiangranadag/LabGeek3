@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(88, 139, 206);
+}
+
+#Paraqueadero{
+    border: 2px solid rgb(23, 62, 80);
+}
+
+#Boton{
+    display: block;
+    margin: 10px auto;
+}
+
+.Vehiculo{
+    display: block;
+    margin: 0 auto;
+}
+
+#OrdenV{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(23, 62, 80);
+    width: 500px;
+}
