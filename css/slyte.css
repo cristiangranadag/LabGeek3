@@ -1,24 +1,34 @@
-body{
-    background-color: rgb(88, 139, 206);
-}
+body{ /* Inicio y etiqueta del cuerpo de pagina */
+    background-color: rgb(53, 134, 158); /* Fondo del color en toda pagina */
+} /* Fin del cuerpo de pagina */
 
-#Paraqueadero{
-    border: 2px solid rgb(23, 62, 80);
-}
+header{ /* Inicio y etiqueta del titulo de pagina */
+    background-color: rgb(24, 134, 110); /* Color en solo fondo del titulo */
+} /* Fin del titulo de pagina  */
 
-#Boton{
-    display: block;
+#titulo{ /* Inicio y identificador del titulo de pagina  */
+    font-size: 45px; /* Tamaño de las letras o el texto */
+} /* Fin y identificador del titulo de pagina */
+
+#boton{  /* Inicio y identificador del botón */
+    display: block; 
     margin: 10px auto;
-}
+} /* Fin y identificador del botón de pagina */
 
-.Vehiculo{
+form{ /* Inicio y etiqueta del formulario */
+    max-width: 300px; /* Tamaño ancho del todo formulario  */
+    text-align: center; /* Centro del texto */
+    margin: 0 auto 50px auto;
+} /* Fin y etiqueta del formulario */
+
+.vehiculo{ /* Inicio de la clase de la etiqueda vehiculo */
     display: block;
     margin: 0 auto;
-}
+} /* Fin de la clase de la etiqueda vehiculo */
 
-#OrdenV{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 2px solid rgb(23, 62, 80);
-    width: 500px;
-}
+#ordenV{ /* Inicio y identificador del factura de vehiuclo */
+    margin-top: 30px; /*arriba de la factura */
+    margin-bottom: 30px; /*abajo de la factura */
+    border: 2px solid rgb(23, 62, 80); /* Borde de color */
+    width: 500px; /* Ancho de tamañno */
+} /* Fin y identificador del factura de vehiuclo */
